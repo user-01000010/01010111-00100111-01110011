@@ -1,4 +1,30 @@
 extends Node
 
-static func print_hello():
-  print("hello")
+
+var Milk = {
+	"name" : "Milk... Shake?",
+	"desc" : "There is really nothing in here.",
+	"ingr" : [],
+	"color" : Color8(255, 255, 255),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "1.99"
+}
+
+#1 ingredients
+
+var Apple = {
+	"name" : "Apple Milkshake",
+	"desc" : "Never Had One. Hopefully It Isn't Bad.",
+	"ingr" : ["AP"],
+	"color" : Color8(219, 7, 48),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+
+
+#LIST
+
+var shakes = [Milk, Apple]
