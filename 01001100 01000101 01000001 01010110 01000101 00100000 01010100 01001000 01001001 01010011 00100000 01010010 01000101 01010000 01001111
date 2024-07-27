@@ -1,2 +1,4 @@
-func write():
+extends Node
+
+func _ready():
   print("hello")
