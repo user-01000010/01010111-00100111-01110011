@@ -1,4 +1,4 @@
 extends Node
 
-func print_hello():
+static func print_hello():
   print("hello")
