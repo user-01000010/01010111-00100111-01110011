@@ -170,7 +170,7 @@ static var AppleCider = {
 	"avg price" : "2.99"
 }
 
-static var Shroompple = {
+static var Shroomple = {
 	"name" : "Shroomple Milkshake",
 	"desc" : "So What Exactly Is In This?",
 	"ingr" : ["AP", "MU"],
@@ -183,5 +183,5 @@ static var Shroompple = {
 
 #LIST
 
-static var shakes = [Milk, Apple, Blueberry, Banana, Strawberry, Chocolate]
+static var shakes = [Milk, Apple, Blueberry, Banana, Strawberry, Chocolate, Icecream, Mushroom, Bone, Orange, TNT, ApplesAndBananas, AppleBones, BlueAppleberry, ChocoApple, AppleCider, Shroomple]
 static var effects = ["none", "grow", "dry", "explode", "blue", "elf"]
