@@ -3,7 +3,7 @@ extends Node
 
 static var Milk = {
 	"name" : "Milk... Shake?",
-	"desc" : "There is really nothing in here.",
+	"desc" : "There Is Nothing In Here...",
 	"ingr" : [],
 	"color" : Color8(255, 255, 255),
 	"effect" : "none",
@@ -67,6 +67,121 @@ static var Chocolate = {
 	"avg price" : "2.49"
 }
 
+static var Icecream = {
+	"name" : "Icecream Milkshake",
+	"desc" : "Isn't There Icecream Inside Already?",
+	"ingr" : ["IC"],
+	"color" : Color8(222, 219, 213),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+static var Mushroom = {
+	"name" : "Mushroom Milkshake",
+	"desc" : "DON'T SUE ME PLEASE :)",
+	"ingr" : ["MU"],
+	"color" : Color8(255, 233, 189),
+	"effect" : "grow",
+	"effect2" : "none",
+	"avg price" : "2.25"
+}
+
+static var Bone = {
+	"name" : "Bone Milkshake",
+	"desc" : "Wonder Where This Came From...",
+	"ingr" : ["BO"],
+	"color" : Color8(176, 166, 153),
+	"effect" : "dry",
+	"effect2" : "none",
+	"avg price" : "1.99"
+}
+
+static var Orange = {
+	"name" : "Orange Milkshake",
+	"desc" : "we told them it's carrots.",
+	"ingr" : ["OR"],
+	"color" : Color8(176, 166, 153),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+static var TNT = {
+	"name" : "Explosive Milkshake",
+	"desc" : "Nobody Is Gonna Know.",
+	"ingr" : ["TN"],
+	"color" : Color8(176, 166, 153),
+	"effect" : "explode",
+	"effect2" : "none",
+	"avg price" : "1.99"
+}
+
+#2 Ingredients
+
+static var ApplesAndBananas = {
+	"name" : "Ay-pples and Bay-nanas Milkshake",
+	"desc" : "No. Just No.",
+	"ingr" : ["AP", "BA"],
+	"color" : Color8(235, 164, 164),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.99"
+}
+
+
+static var AppleBones = {
+	"name" : "Apple Crunch Milkshake",
+	"desc" : "Perfect Balance Of Juiciness And Crunchiness.",
+	"ingr" : ["AP", "BO"],
+	"color" : Color8(179, 55, 88),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.99"
+}
+
+static var BlueAppleberry = {
+	"name" : "Blue Appleberry Milkshake",
+	"desc" : "This Blue Looks WAY Too Unnatural",
+	"ingr" : ["AP", "BL"],
+	"color" : Color8(22, 86, 158),
+	"effect" : "blue",
+	"effect2" : "none",
+	"avg price" : "2.69"
+}
+
+static var ChocoApple = {
+	"name" : "Choco Covered Apple Milkshake",
+	"desc" : "I Thought They Only Made These With Caramel. Guess Chocolate too.",
+	"ingr" : ["AP", "CH"],
+	"color" : Color8(145, 47, 29),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "3.49"
+}
+
+static var AppleCider = {
+	"name" : "Apple Cider Float",
+	"desc" : "Huh, Guess We Make Floats Too Now.",
+	"ingr" : ["AP", "IC"],
+	"color" : Color8(217, 168, 115),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.99"
+}
+
+static var Shroompple = {
+	"name" : "Shroomple Milkshake",
+	"desc" : "So What Exactly Is In This?",
+	"ingr" : ["AP", "MU"],
+	"color" : Color8(220, 90, 120),
+	"effect" : "elf",
+	"effect2" : "none",
+	"avg price" : "2.99"
+}
+
+
 #LIST
 
-static var shakes = [Milk, Apple]
+static var shakes = [Milk, Apple, Blueberry, Banana, Strawberry, Chocolate]
+static var effects = ["none", "grow", "dry", "explode", "blue", "elf"]
