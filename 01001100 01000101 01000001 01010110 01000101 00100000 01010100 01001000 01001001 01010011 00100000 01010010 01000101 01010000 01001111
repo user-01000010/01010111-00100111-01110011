@@ -24,6 +24,48 @@ static var Apple = {
 }
 
 
+static var Blueberry = {
+	"name" : "Blueberry Milkshake",
+	"desc" : "Is There Artificial Food Coloring In Here?",
+	"ingr" : ["BL"],
+	"color" : Color8(6, 105, 204),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+
+static var Banana = {
+	"name" : "Banana Milkshake",
+	"desc" : "BA NA NA NAAAAAA-",
+	"ingr" : ["BA"],
+	"color" : Color8(224, 224, 166),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+
+static var Strawberry = {
+	"name" : "Strawberry Milkshake",
+	"desc" : "Strawberry Milk Is Better.",
+	"ingr" : ["ST"],
+	"color" : Color8(237, 145, 223),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
+
+
+static var Chocolate = {
+	"name" : "Chocolate Milkshake",
+	"desc" : "YUMMY YUMMY IN MY TUMMY!",
+	"ingr" : ["CH"],
+	"color" : Color8(102, 46, 29),
+	"effect" : "none",
+	"effect2" : "none",
+	"avg price" : "2.49"
+}
 
 #LIST
 
