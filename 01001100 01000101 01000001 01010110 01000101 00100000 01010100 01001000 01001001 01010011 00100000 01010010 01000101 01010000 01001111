@@ -1,7 +1,7 @@
 extends Node
 
 
-var Milk = {
+static var Milk = {
 	"name" : "Milk... Shake?",
 	"desc" : "There is really nothing in here.",
 	"ingr" : [],
@@ -13,7 +13,7 @@ var Milk = {
 
 #1 ingredients
 
-var Apple = {
+static var Apple = {
 	"name" : "Apple Milkshake",
 	"desc" : "Never Had One. Hopefully It Isn't Bad.",
 	"ingr" : ["AP"],
@@ -27,4 +27,4 @@ var Apple = {
 
 #LIST
 
-var shakes = [Milk, Apple]
+static var shakes = [Milk, Apple]
