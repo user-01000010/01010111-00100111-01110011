@@ -215,5 +215,5 @@ static var BlastingApple = {
 #LIST
 
 static var shakes = [Milk, Apple, Blueberry, Banana, Strawberry, Chocolate, Icecream, Mushroom, Bone, Orange, TNT, ApplesAndBananas, AppleBones, BlueAppleberry, PinkAppleberry, ChocoApple, AppleCider, Shroomple, CrispyCitrus, BlastingApple]
-static var effects = ["none", "grow", "dry", "explode", "blue", "pink, "gnome"]
+static var effects = ["none", "grow", "dry", "explode", "blue", "pink", "gnome"]
 static var effectcolors = ["red"]
